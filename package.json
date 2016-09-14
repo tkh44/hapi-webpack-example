@@ -1,0 +1,28 @@
+{
+  "name": "hapi-webpack-example",
+  "version": "1.0.0",
+  "description": "Example of using hapi with webpack dev server and hot reloading",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dashboard -- node ./server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkh44/hapi-webpack-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tkh44/hapi-webpack-example/issues"
+  },
+  "homepage": "https://github.com/tkh44/hapi-webpack-example#readme",
+  "devDependencies": {
+    "hapi": "^15.0.3",
+    "html-webpack-plugin": "^2.22.0",
+    "webpack": "^1.13.2",
+    "webpack-dashboard": "^0.1.8",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-hot-middleware": "^2.12.2"
+  }
+}
